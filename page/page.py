@@ -1,5 +1,5 @@
-from page.search_page import SearchPage
-from page.setting_page import SettingPage
+from page.home_page import HomePage
+from page.login_page import LoginPage
 
 
 class Page:
@@ -8,9 +8,9 @@ class Page:
         self.driver = driver
 
     @property
-    def setting(self):
-        return SettingPage(self.driver)
+    def login(self):
+        return LoginPage(self.driver)
 
     @property
-    def search(self):
-        return SearchPage(self.driver)
+    def home(self):
+        return HomePage(self.driver)

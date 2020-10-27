@@ -1,0 +1,10 @@
+test_login:
+  login01:
+    username: "ycy666"
+    password: "qwe123"
+  login02:
+    username: "ycy777"
+    password: "qwe123"
+  login03:
+    username: "ycy888"
+    password: "qwe123"
